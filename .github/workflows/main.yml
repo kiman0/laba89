@@ -47,10 +47,7 @@ jobs:
           
 
           script: |
-            mkdir lab9
-            cd lab9
-            git clone https://github.com/kiman0/laba89.git
+            cd lab
             git pull origin main
-            python3 -m venv .env
             source .env/bin/activate
             pip install -r requirements.txt
