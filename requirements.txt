@@ -1,3 +1,5 @@
+dependency-injector
 flask
-psycopg2-binary
-gunicorn
+pyyaml
+pytest-flask
+pytest-cov
